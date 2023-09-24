@@ -33,8 +33,26 @@
     align-content: stretch;
 }
 
+.fs a{
+    width: 25%;
+    align-self: center;
+}
 
 .fs img{
     width: 100%;
 }
 
+.fs img:hover{
+    opacity: 0.5;
+}
+
+#img1{
+    width: 30%;
+}
+#img2{
+    width: 15%;
+}
+
+.c1{
+    text-align: center;
+}

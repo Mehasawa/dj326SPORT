@@ -22,4 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='home'),
     path('foot/', views.foot, name='foot'),
+    path('foot/smen/<str:sport>/<int:id>/', views.sportsmen, name='smen'),
+    #path('basket/', views.foot, name='bask'),
+    #path('basket/smen/<str:sport>/<int:id>/', views.sportsmen, name='smenb'),
 ]

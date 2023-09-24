@@ -1,0 +1,15 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block css %}
+    <link rel="stylesheet" href="{% static 'css/2.css' %}">
+{% endblock css %}
+{% block content %}
+<h2>sportsmen</h2>
+    <div class="c1">
+        <h2>{{ name }}</h2>
+        <img src="{% static pic %}" alt="" id="img1">
+        <img src="{% static picsport %}" alt="" id="img2">
+        <h2>{{ desc }}</h2>
+    </div>
+
+{% endblock content %}
